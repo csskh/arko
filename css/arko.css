@@ -1,0 +1,196 @@
+
+a{
+	color: black;
+}
+
+a:hover{
+	color: gray;
+	text-decoration: none;
+}
+
+.menu a{
+	padding: 0% 8%;
+}
+
+.extra{
+	margin-left: 13%;
+}
+
+@media (min-width: 1400px) {
+    .extra {
+        margin-left: 16%;
+    }
+}
+
+p.text-left, p.text-right{
+	position: relative;
+	margin-top: 33%;
+}
+
+h1.text-right{
+	position: relative;
+	margin-top: 26%;
+}
+
+h1.text-right{
+	position: absolute;
+	margin-top: 23%;
+	left: 14%;
+}
+
+@media (min-width: 1400px) {
+    h1.text-right {
+        left: 39%;
+    }
+}
+
+h1.text-left:after{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	height: 2px;
+	width: 65px;
+	left: 0;
+	background: gray;
+	transform: translateY(10px);
+}
+
+h1.text-right:after{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	height: 2px;
+	width: 65px;
+	left: auto;
+	right: 0;
+	background: gray;
+	transform: translateY(10px);
+}
+
+.derecha{
+	position: relative;
+}
+
+
+
+h1.text-center{
+	position: relative;
+	margin-bottom: 5%;
+}
+
+h1.text-center:after{
+	content: '';
+	position: absolute;
+	height: 2px;
+	width: 85px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: 0 auto;
+	background: gray;
+	transform: translateY(10px);
+}
+
+.main-text-center{
+	text-align: center!important;
+	font-family: inherit;
+	color: inherit;
+}
+
+h1.main-text-center{
+	position: relative;
+	margin: 2% 0%;
+}
+
+h1.main-text-center:after{
+	content: '';
+	position: absolute;
+	height: 2px;
+	width: 70%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: 0 auto;
+	background: gray;
+	transform: translateY(10px);
+}
+
+.main-text-left{
+	text-align: left!important;
+	font-family: inherit;
+	color: inherit;
+}
+
+h1.main-text-left{
+	position: relative;
+	margin-top: 32%;
+}
+
+h1.main-text-left:after{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	height: 2px;
+	width: 65px;
+	left: 77%;
+	background: gray;
+	transform: translateY(10px);
+}
+
+@media (min-width: 1400px) {
+    h1.main-text-left:after {
+        left: 65%;
+    }
+}
+
+p.main-text-left{
+	margin-top: 5%;
+}
+
+.carousel-inner{
+	margin-top: 2%;
+}
+
+#fotos1{
+	width: 800px;
+	height: 700px;
+}
+
+.sobreNosotros{
+	margin: 4%;
+	display: inline-block;
+}
+
+.float-left {
+	max-width: 600px;
+	margin-right: 10%;
+}
+
+.float-right {
+	max-width: 600px;
+	margin-left: 7%;
+}
+
+.sobreNosotros2{
+	margin: 4%;
+	display: inline-block;
+}
+
+
+.colorArea1{
+	background-color: aliceblue;
+}
+
+
+.colorArea2{
+	background-color: gainsboro;
+	padding: 2%;
+}
+
+.contactenos{
+	padding: 2%;
+}
+
+footer{
+	text-align: center;
+}
